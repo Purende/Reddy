@@ -64,7 +64,8 @@
 	<distributionManagement>
 		<repository>
 			<id>deployment</id>
-			<url>https://localhost:8081/repository/test1/</url>
+			<name>Sample-Snap</name>
+			<url>http://localhost:8081/repository/Sample-Snap/</url>
 			<!--<releases>
 				<enabled>true</enabled>
 			</releases>
