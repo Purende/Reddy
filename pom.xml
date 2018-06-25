@@ -61,18 +61,18 @@
 		</plugins>
 	</build>
 
-	<repositories>
+	<distributionManagement>
 		<repository>
-			<id>saucelabs-repository</id>
-			<url>https://repository-saucelabs.forge.cloudbees.com/release</url>
-			<releases>
+			<id>deployment</id>
+			<url>https://localhost:8081/repository/test1/</url>
+			<!--<releases>
 				<enabled>true</enabled>
 			</releases>
 			<snapshots>
 				<enabled>true</enabled>
-			</snapshots>
+			</snapshots>-->
 		</repository>
-	</repositories>
+	</distributionManagement>
 
 
 </project>
