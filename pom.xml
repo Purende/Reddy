@@ -62,17 +62,11 @@
 	</build>
 
 	<distributionManagement>
-		<repository>
+		<snapshotRepository>
 			<id>deployment</id>
 			<name>Sample-Snap</name>
 			<url>http://localhost:8081/repository/Sample-Snap/</url>
-			<!--<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>-->
-		</repository>
+		</snapRepository>
 	</distributionManagement>
 
 
